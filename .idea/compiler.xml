@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
+        <module name="eurekaserver3002" />
+        <module name="eurekaserver3001" />
         <module name="eurekaclient" />
       </profile>
     </annotationProcessing>
@@ -17,6 +19,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
+      <module name="eurekaserver3001" options="-parameters" />
+      <module name="eurekaserver3002" options="-parameters" />
       <module name="springcloudlearning" options="-parameters" />
     </option>
   </component>
